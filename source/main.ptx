@@ -65,7 +65,7 @@
           As we saw in <xref ref="def-first-def"/>, math is cool.
         </p>
 
-        <figure width="%" xml:id="myfig">
+        <figure width="5in" xml:id="myfig">
           <caption>A tikz image</caption>
           <image xml:id="rectangle">
             <description>An example image</description>
