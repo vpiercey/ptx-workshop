@@ -9,6 +9,7 @@
     <latex-image-preamble>
       \usepackage{tikz}
     </latex-image-preamble>
+    <rename element="inlineexercise">Exercise</rename>
   </docinfo>
 
   <book xml:id="my-great-book">
@@ -64,7 +65,16 @@
         <p>
           As we saw in <xref ref="def-first-def"/>, math is cool.
         </p>
-
+        <exercise>
+          <statement>
+          <p>
+          What is <m>1+1</m>?
+          </p>
+        </statement>
+        <hint> Use arithmetic </hint>
+        <answer>2</answer>
+        <solution>Use successors.</solution>
+        </exercise>
         <figure xml:id="myfig">
           <caption>A tikz image</caption>
           <image width = "25%" xml:id="rectangle">
